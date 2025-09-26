@@ -8,7 +8,7 @@
       var path = window.location.pathname + window.location.search + window.location.hash;
       sessionStorage.redirect = path;
       // 重定向到首页，让 React Router 处理路由
-      window.location.href = '/YOUR_REPO_NAME/';
+      window.location.href = window.location.pathname.split('/').slice(0, -1).join('/') + '/';
     </script>
   </head>
   <body>
