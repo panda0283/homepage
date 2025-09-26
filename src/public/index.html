@@ -2,30 +2,11 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="专业占星服务，星盘解读" />
-    
-    <!-- 修复 GitHub Pages 404 的关键配置 -->
-    <base href="%PUBLIC_URL%/" />
-    
     <title>占星服务</title>
-    
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- 修复路由的脚本 -->
-    <script type="text/javascript">
-      // 单页应用 GitHub Pages 404 修复
-      (function() {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect !== location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
-    </script>
   </head>
   <body>
     <noscript>您需要启用 JavaScript 才能运行此应用。</noscript>
