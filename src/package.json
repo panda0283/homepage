@@ -14,7 +14,9 @@
     "react-router-dom": "^6.8.0",
     "jotai": "^2.0.0",
     "lucide-react": "^0.294.0",
-    "react-hot-toast": "^2.4.0"
+    "react-hot-toast": "^2.4.0",
+    "@nextui-org/react": "^2.4.8",
+    "framer-motion": "^11.9.0"
   },
   "devDependencies": {
     "@rsbuild/core": "^0.4.0",
